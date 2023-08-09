@@ -21,4 +21,5 @@ This is especially useful for people who never had the chance to take a Data Str
 ### Future Features
 * Scheduled reminders to practice, even if you're not interviewing or doing contests.
 * Log the time it takes to do a challenge (while extension is on).
+* Problem translation into a language that isn't English?
 
