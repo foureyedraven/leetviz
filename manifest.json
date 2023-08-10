@@ -10,13 +10,15 @@
     "128": "images/icon-128.png"
   },
   "permissions": [
-    "sidePanel"
+    "tabs",
+    "activeTab"
   ],
   "side_panel": {
     "default_path": "sidepanel.html"
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "service-worker.js",
+    "type": "module"
   },
   "content_scripts": [
     {
@@ -27,9 +29,16 @@
     }
   ],
   "action": {
-    "default_popup": "popup.html"
+    "default_icon": {              
+        "16": "images/icon-16.png",   
+        "48": "images/icon-48.png",   
+        "32": "images/icon-32.png",
+        "128": "images/icon-128.png"
+    },
+    "default_title": "Click Me", 
+    "default_popup": "sidepanel.html"
   },
   "host_permissions": [
-    "https://leetcode.com/*"
+    "https://*.leetcode.com/*"
   ]
 }

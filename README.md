@@ -17,6 +17,7 @@ This is especially useful for people who never had the chance to take a Data Str
 * Track your progress in different languages, or, all challenges cumulatively. 
 * Over time, as you use the extension and allow it to time you, see your generalised skill for a problem type and language.
 * Set yourself multiple goals and choose a new one any time.
+* Match system dark mode
 
 ### Future Features
 * Scheduled reminders to practice, even if you're not interviewing or doing contests.
