@@ -19,6 +19,9 @@ This is especially useful for people who never had the chance to take a Data Str
 * Set yourself multiple goals and choose a new one any time.
 * Match system dark mode
 
+* If click on ext, and not on leetcode.com, show popup with link
+* else, open side panel.
+
 ### Future Features
 * Scheduled reminders to practice, even if you're not interviewing or doing contests.
 * Log the time it takes to do a challenge (while extension is on).
